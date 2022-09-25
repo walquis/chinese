@@ -1,0 +1,74 @@
+%s:<td \_.\{-}>:<td>:
+
+%s:<td \_.\{-}>:<td>:
+
+%s:<td .\{-}\(lime\).\{-}>:<td class="td-\1">:
+lime
+
+width=33 style='width:24.8pt;border-top:none;border-left:solid black 1.0pt; border-bottom:solid black 1.0pt;border-right:none;mso-border-left-alt:solid black .5pt; mso-border-bottom-alt:solid black .5pt;background:lime;padding:0in 5.4pt 0in 5.4pt'
+
+%s:<td .\{-}\(#99CCFF\).\{-}>:<td class="td-light-blue">:
+
+%s:<td .\{-}\(#FF99CC\).\{-}>:<td class="td-salmon">:
+
+%s:<td width="33" .\{-}>:<td class="td-white">:
+
+%s:<td width="60" .\{-}>:<td class="td-right">:
+
+
+
+<p class="MsoNormal" align="center" style="text-align:center;layout-grid-mode:;char">
+
+%s:<p class=\_.\{-}>:<p>:
+
+<span lang="AR-SA" style="font-family:SimSun;; mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:&quot;Times New Roman&quot;;;mso-ansi-language:PT">
+
+%s:<span lang="AR-SA"\_.\{-}>:<span>:
+
+<span lang="PT" style="font-size:14.0pt;mso-bidi-font-size:10.0pt;mso-fareast-font-family:; &quot;MS Song&quot;;mso-ansi-language:PT">
+
+%s:<span lang="PT"\_.\{-}>:<span>:
+
+<span lang="EN-GB" style="font-size:14.0pt;;mso-bidi-font-size:10.0pt;mso-fareast-font-family:&quot;MS Song&quot;;mso-ansi-language:; EN-GB">
+
+%s:<span lang="EN-GB"\_.\{-}>:<span>:
+
+<span style="font-size:14.0pt;mso-bidi-font-size:10.0pt">
+
+%s:<span style=\_.\{-}>:<span>:
+%s:<span class=\_.\{-}>:<span>:
+
+
+%s:<p><span>\(.\{-}\)</span></p>:\1:
+
+%s:<span>\(.\)</span>:\1:
+%
+
+%s:<p>\(.*\)</p>$:\1
+
+
+<td class="td-white">
+            <a href="#chu1_goOut">出</a>
+          </td>
+
+%s:\(<td.*\)\n *\(<a.*\)\n *<\/td>:\1 \2 </td>:
+
+<td width="66" valign="top" style="width:49.35pt;border:solid black 1.0pt;&#10;  border-right:none;mso-border-top-alt:solid black .5pt;mso-border-left-alt:&#10;  solid black .5pt;mso-border-bottom-alt:solid black .5pt;padding:0in 5.75pt 0in 5.75pt">
+  <p class="MsoNormal" style="layout-grid-mode:char"><span style="font-size:14.0pt;&#10;  mso-bidi-font-size:10.0pt;mso-fareast-font-family:&quot;MS Song&quot;">Char<p/></span></p>
+  </td>
+
+ <td width="66" valign="top" style="width:49.35pt;border-top:none;border-left:&#10;  solid black 1.0pt;border-bottom:solid black 1.0pt;border-right:none;&#10;  mso-border-left-alt:solid black .5pt;mso-border-bottom-alt:solid black .5pt;&#10;  padding:0in 5.75pt 0in 5.75pt">
+  <p class="MsoNormal" style="text-indent:.7pt;layout-grid-mode:char"><span lang="NL" style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:SimSun;&#10;  mso-ansi-language:NL">...</span><span lang="AR-SA" style="font-size:14.0pt;&#10;  mso-bidi-font-size:10.0pt;font-family:SimSun;mso-ansi-language:NL">的话</span><span lang="NL" style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:SimSun;&#10;  mso-ansi-language:NL"><p/></span></p>
+
+%s:<td .\{-}>:<td>:
+%s:<p .\{-}>:<p>:
+%s:<span .\{-}>:<span>:
+
+
+%s:<span>\(.\{-}\)</span>:\1:
+
+%s:<p>\(.\{-}\)</p>:\1:
+
+%s:\(<td.*\)\n *\(.*\)\n *<\/td>:\1 \2 </td>:
+
+
