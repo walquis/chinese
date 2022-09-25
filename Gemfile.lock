@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    html5-beautifier (0.0.2)
+      nokogiri
+    nokogiri (1.13.8-x86_64-darwin)
+      racc (~> 1.4)
+    racc (1.6.0)
+
+PLATFORMS
+  x86_64-darwin-17
+
+DEPENDENCIES
+  html5-beautifier (~> 0.0.2)
+
+BUNDLED WITH
+   2.2.12
